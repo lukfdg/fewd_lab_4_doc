@@ -1,7 +1,7 @@
 var msg = '<h2>Opening Times</h2><p>Mon-Fri: ' + window.innerWidth + '</p>';
 msg += '<p>Sat-Sun: ' + window.innerHeight + '</p>';
-msg += '<h2>history</h2><p>items: ' + window.history.length + '</p>';
-msg += '<h2>screen</h2><p>width: ' + window.screen.width + '</p>';
+msg += '<h2>Menu</h2><p>items: ' + window.history.length + '</p>';
+msg += '<h2>Screen</h2><p>width: ' + window.screen.width + '</p>';
 msg += '<p>height: ' + window.screen.height + '</p>';
 
 var el = document.getElementById('info');
